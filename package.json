@@ -1,11 +1,11 @@
 {
-  "name": "superlogin",
+  "name": "@qbunnyteam/superlogin",
   "version": "0.6.1",
-  "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
+  "description": "This is a fork of colinskow/superlogin for qbunny internal user. Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colinskow/superlogin.git"
+    "url": "https://github.com/Charles546/superlogin.git"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -26,7 +26,7 @@
     "Node",
     "Express"
   ],
-  "author": "Colin Skow",
+  "author": "Chun Huang(Charles)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/colinskow/superlogin/issues"
