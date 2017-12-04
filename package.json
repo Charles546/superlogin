@@ -1,6 +1,6 @@
 {
   "name": "@qbunnyteam/superlogin",
-  "version": "0.6.1",
+  "version": "0.0.2",
   "description": "This is a fork of colinskow/superlogin for qbunny internal user. Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/colinskow/superlogin",
   "dependencies": {
+    "@qbunnyteam/couch-pwd": "^0.0.1",
     "bluebird": "^3.3.4",
-    "couch-pwd": "github:zeMirco/couch-pwd",
     "ejs": "^2.3.1",
     "express": "^4.13.3",
     "extend": "^3.0.0",
@@ -45,7 +45,7 @@
     "passport-http-bearer-sl": "^1.0.1",
     "passport-local": "^1.0.0",
     "pouchdb": "~6.3.4",
-    "pouchdb-seed-design": "^0.2.0",
+    "pouchdb-seed-design": "^0.3.0",
     "redis": "^2.5.2",
     "sofa-model": "^0.2.0",
     "superagent": "^1.2.0",
